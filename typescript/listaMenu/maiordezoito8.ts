@@ -5,18 +5,18 @@ maior que 18. */
 
 import promptSync from "prompt-sync"
 
-const prompt = promptSync()
+const prompt: any = promptSync()
 
-export function MaiorIdadade() {
-  
-let idade = parseInt(prompt("Digite sua idade:"));
+//export function MaiorIdadade() {
+
+  let idade:number = parseInt(prompt("Digite sua idade:"));
 
 
 
-while (idade < 18) {
-  idade = parseInt(prompt("Digite novamente sua idade:"));
-}
+  while (idade < 18) {
+    idade = parseInt(prompt("Digite novamente sua idade:"));
+  }
 
-console.log("Você é maior de idade!");
+  console.log("Você é maior de idade!");
 
-}
+//}
