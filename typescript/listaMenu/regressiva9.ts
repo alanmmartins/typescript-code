@@ -4,7 +4,7 @@ no console a contagem regressiva até 0. */
 import promptSync from "prompt-sync"
 
 const prompt: any = promptSync()
-//export function RegressivaAteZero() {
+export function RegressivaAteZero() {
 
 
 
@@ -14,4 +14,4 @@ const prompt: any = promptSync()
     console.log(numero--);
     // numero--;
   }
-//} 
+} 

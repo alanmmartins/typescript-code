@@ -7,7 +7,7 @@ import promptSync from "prompt-sync"
 
 const prompt: any = promptSync()
 
-//export function MaiorIdadade() {
+export function MaiorIdadade() {
 
   let idade:number = parseInt(prompt("Digite sua idade:"));
 
@@ -19,4 +19,4 @@ const prompt: any = promptSync()
 
   console.log("Você é maior de idade!");
 
-//}
+}
